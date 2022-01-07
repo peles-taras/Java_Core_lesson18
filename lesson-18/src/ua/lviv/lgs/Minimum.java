@@ -14,5 +14,10 @@ public class Minimum {
 		Minimum m =new Minimum();
 		m.stringToInteger(arr);
 		System.out.println(arr);
+		
+		
+		//Під час запуску програми тип Дженеріка стирається, List<Integer> стає List, тому в нього можна пхати не тільки Integer.
+		
+		
 	}
 }
